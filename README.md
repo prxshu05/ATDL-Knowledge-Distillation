@@ -868,38 +868,8 @@ To reproduce the experiments:
 
 ---
 
-## Ablation Study
 
-The assignment requires an ablation study on at least one KD hyperparameter, such as temperature \(T\) or distillation weight \(\lambda\).
 
-### Proposed temperature ablation
-
-Train or evaluate the student using different temperature values while keeping the remaining configuration unchanged.
-
-| Temperature | Test Accuracy (%) | Notes                    |
-| ----------- | ----------------: | ------------------------ |
-| T = 1       |    To be measured | No temperature softening |
-| T = 2       |    To be measured | Moderate softening       |
-| T = 4       |    To be measured | Standard KD comparison   |
-| T = 8       |    To be measured | Higher softening         |
-
-The final report should include the actual results from the experiments rather than illustrative values.
-
-### Proposed distillation-weight ablation
-
-Alternatively, compare different values of \(\lambda\):
-
-| KD Weight | Test Accuracy (%) | Notes                  |
-| --------- | ----------------: | ---------------------- |
-| 0.0       |    To be measured | No KD                  |
-| 0.25      |    To be measured | Low KD contribution    |
-| 0.5       |    To be measured | Balanced objective     |
-| 0.75      |    To be measured | High KD contribution   |
-| 1.0       |    To be measured | KD-dominated objective |
-
-The ablation should explain how the selected hyperparameter affects the student accuracy and training behavior.
-
----
 
 ## Limitations
 
