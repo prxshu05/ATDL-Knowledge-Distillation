@@ -1,0 +1,37 @@
+[
+  {
+    "alpha": 0.3,
+    "temperature": 1.0,
+    "best_val_acc": 94.84,
+    "final_test_acc": 94.38,
+    "honest_train_acc": 99.48
+  },
+  {
+    "alpha": 0.3,
+    "temperature": 2.0,
+    "best_val_acc": 95.08,
+    "final_test_acc": 94.65,
+    "honest_train_acc": 99.54444444444445
+  },
+  {
+    "alpha": 0.3,
+    "temperature": 4.0,
+    "best_val_acc": 95.28,
+    "final_test_acc": 94.58,
+    "honest_train_acc": 99.54666666666667
+  },
+  {
+    "alpha": 0.3,
+    "temperature": 8.0,
+    "best_val_acc": 95.24,
+    "final_test_acc": 94.51,
+    "honest_train_acc": 99.51333333333334
+  },
+  {
+    "alpha": 0.3,
+    "temperature": 20.0,
+    "best_val_acc": 95.26,
+    "final_test_acc": 94.79,
+    "honest_train_acc": 99.42222222222222
+  }
+]

@@ -1,0 +1,4 @@
+Model,Params (M),Size (MB),Test Acc (%),Honest Train Acc (%),Train/Test Gap (pts),Sparsity,Compression vs Teacher
+"Teacher (ResNet34, FP32)",21.28,81.18,96.03,99.94,3.91,n/a (dense FP32),1.00x (reference)
+"Baseline (ResNet18, FP32, no KD)",11.17,42.63,95.55,99.69,4.14,n/a (dense FP32),1.90x
+"Student (ResNet18, ternary, KD+QAT)",11.17,2.74,95.15,99.36,4.21,47.2%,29.62x
